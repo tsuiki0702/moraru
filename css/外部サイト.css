@@ -1,0 +1,176 @@
+﻿html{
+	font-size:8px;
+}
+
+.title{
+	color:#006400;
+	font-size:clamp(12px,12vmin,84px);
+	
+	text-align:center;
+	font-family:'UD デジタル 教科書体 N';
+}
+.subtt{
+	color:#006400;
+	font-size:clamp(12px,7vmin,48px);/*正解画面のすべての文字の大きさはここで調整されます 5vminはウィンドウの縦幅または横幅の短いほうの5%です*/
+	text-align:center;
+	font-family:'UD デジタル 教科書体 N';
+}
+.matome p{
+	text-align:left;
+	font-family:'UD デジタル 教科書体 N';
+	font-size:3.125rem;
+}
+.img{
+     	display:flex;
+	justify-content:space-around;
+}
+.img2{
+     	display:flex;
+	justify-content:space-around;
+}
+.jyouhou{
+	display:flex;
+}
+.jyoutalk p {
+  	margin: 0;
+  	padding: 0;
+	font-size: 3.125rem;
+	font-family:'UD デジタル 教科書体 N';
+	text-align:left;
+	
+}
+.jyoutalk {
+  position: relative;
+  display: inline-block;
+  margin-right: 1.4375rem;
+  padding: 1rem;
+  border: 0.3125rem solid #000000;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+  margin-left:auto;
+}
+
+.jyoutalk::before {
+  content: "";
+  position: absolute;
+  top: 22%;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0 2.1875rem 1.4375rem;
+  border-color: transparent transparent transparent #000000;
+  translate: 100% -50%;
+  transform: skew(0, -6deg);
+  transform-origin: right;
+}
+
+.jyoutalk::after {
+  content: "";
+  position: absolute;
+  top: 22%;
+  right: 0;
+  border-style: solid;
+  border-width: 0 0 1.30625rem 0.85625rem;
+  border-color: transparent transparent transparent #ffffff;
+  translate: 100% calc(-50% - 0.13125rem);
+  transform: skew(0, -6deg);
+  transform-origin: right;
+}
+.num1{
+	display:flex;
+	
+}
+.num2{
+	display:flex;
+	
+}
+.daikontalk p {
+  	margin: 0;
+  	padding: 0;
+	font-size: 3.125rem;
+	font-family:'UD デジタル 教科書体 N';
+	text-align:left;
+	
+}
+.daikontalk {
+  position: relative;
+  display: inline-block;
+  margin-left: 1.4375rem;
+  padding: 1rem;
+  border: 0.3125rem solid #000000;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.daikontalk::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-style: solid;
+  border-width: 0 1.4375rem 2.1875rem 0;
+  border-color: transparent #000000 transparent transparent;
+  translate: -100% -50%;
+  transform: skew(0, -6deg);
+  transform-origin: right;
+}
+
+.daikontalk::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-style: solid;
+  border-width: 0 0.85625rem 1.30625rem 0;
+  border-color: transparent #ffffff transparent transparent;
+  translate: -100% calc(-50% -  0.13125rem);
+  transform: skew(0, -6deg);
+  transform-origin: right;
+}
+
+
+
+.btnreturn{
+	position: relative;/*位置*/
+	display: inline-block;/*表示形式*/
+	padding: 2.5rem 4.375rem;
+	text-decoration: none;
+	color:black;
+	border-top-left-radius:1.6rem;
+	border-top-right-radius:3.125rem;
+	border-bottom-left-radius:3.125rem;
+	background: #fff974;
+	font-size: 5vmin;
+	height:8vh;
+	width: 15vw;
+	font-family: 'UD デジタル 教科書体 N';
+	text-align:center;
+}
+span{
+	color:blue;
+}
+
+
+.reibun {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+}
+.reibun p {
+    	margin: 0; 
+    	padding: 0;
+	font-size: 3.125rem;
+	font-family:'UD デジタル 教科書体 N';
+	text-align:left;
+
+}

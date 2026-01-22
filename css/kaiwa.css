@@ -1,0 +1,844 @@
+﻿/*ここはdefaultの設定 タブレット用の設定は下のほうにあります*/
+.gazousize img{height:1250px; width:700px;}
+
+.kaiwa {
+	position: relative;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.hidari img{
+	 position: absolute;
+}
+
+.migi img{
+	 position: absolute;
+	right: 30px; 
+	top: 50px;
+}
+
+.message {
+  position: absolute;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family:  'ヒラギノ角ゴシック';
+  background: white;
+  color: black;
+  text-align: left !important;
+  white-space: pre-wrap;   /* ← 改行をそのまま反映 */
+  word-break: break-word;  /* 長い単語は折り返す */
+  text-decoration: none;
+  border-radius: 50px;
+
+  white-space: normal;
+  word-break: break-word;
+  max-width: 90%;
+  display: inline-block;
+}
+.message a{
+	text-decoration: none;
+	color: black;
+}
+
+.setumei {
+	padding: 30px 40px;
+	font-size: 40px;
+	font-family:   'ヒラギノ角ゴシック';
+	top: 1300;
+	height:170;
+	width: 750;
+
+}
+.image-low {
+	z-index: 1; /* 下に表示される画像 */
+}
+
+.image-high {
+	z-index: 10; /* 上に表示される画像 */
+	text-align: left;
+}
+
+
+.icon1 {
+	left: 190px;
+	top: 192px;
+	background: none;
+}
+
+.icon2 {
+	left: 190px;
+	top: 292px;
+	background: none;
+}
+
+.icon3 {
+	left: 190px;
+	top: 392px;
+	background: none;
+}
+.icon4 {
+	left: 190px;
+	top: 492px;
+
+	background: none;
+}
+.icon5 {
+	left: 190px;
+	top: 592px;
+	background: none;
+}
+
+.icon6 {
+	left: 190px;
+	top: 692px;
+	background: none;
+}
+
+.icon7 {
+	left: 190px;
+	top: 792px;
+	background: none;
+}
+
+.icon8 {
+	left: 190px;
+	top: 892px;
+	background: none;
+}
+
+.icon9 {
+	left: 190px;
+	top: 992px;
+	background: none;
+}
+
+.icon10 {
+	left: 190px;
+	top: 1092px;
+	background: none;
+}
+
+.aite1 {
+	left: 260px; 
+	top: 200px;
+	background: white;
+
+}
+
+.aite2 {
+	left: 260px; 
+	top: 300px;
+	background: white;
+
+}
+
+.aite3 {
+	left: 260px; 
+	top: 400px;
+	background: white;
+
+}
+
+.aite4 {
+	left: 260px; 
+	top: 500px;
+	background: white;
+
+}
+
+.aite5 {
+	left: 260px; 
+	top: 600px;
+	background: white;
+
+}
+
+.aite6 {
+	left: 260px; 
+	top: 700px;
+	background: white;
+
+}
+
+.aite7 {
+	left: 260px; 
+	top: 800px;
+	background: white;
+
+}
+
+.aite8 {
+	left: 260px; 
+	top: 900px;
+	background: white;
+
+}
+
+.aite9 {
+	left: 260px; 
+	top: 1000px;
+	background: white;
+
+}
+
+.aite10 {
+	left: 260px; 
+	top: 1100px;
+	background: white;
+
+}
+
+.zibun1 {
+	right: 220px; 
+	top: 200px;
+	background:  #d8f255;
+
+}
+
+.zibun2 {
+	right: 220px; 
+	top: 300px;
+	background:  #d8f255;
+
+}
+
+.zibun3 {
+	right: 220px; 
+	top: 400px;
+	background:  #d8f255;
+
+}
+
+.zibun4 {
+	right: 220px; 
+	top: 500px;
+	background:  #d8f255;
+
+}
+
+.zibun5 {
+	right: 220px; 
+	top: 600px;
+	background:  #d8f255;
+
+}
+
+.zibun6 {
+	right: 220px; 
+	top: 700px;
+	background:  #d8f255;
+
+}
+
+.zibun7 {
+	right: 220px; 
+	top: 800px;
+	background:  #d8f255;
+
+}
+
+.zibun8 {
+	right: 220px; 
+	top: 900px;
+	background:  #d8f255;
+
+}
+
+.zibun9 {
+	right: 220px; 
+	top: 1000px;
+	background:  #d8f255;
+
+}
+
+.zibun10 {
+	right: 220px; 
+	top: 1100px;
+	background:  #d8f255;
+
+}
+
+.setumei1 {
+  position: absolute;
+  top: 1100px;
+  background: white;
+  font-size: 50px;
+  text-align: left !important;
+  display: inline-block;
+  padding: 30px 40px;
+  width: 80%;
+  max-width: 1000px;
+  height: auto;
+  min-height: 170px;
+  left: 50%;              /* 画面中央寄せ */
+  transform: translateX(-50%);
+  box-sizing: border-box;
+}
+/* タブレットサイズ（768px?1023px） */
+@media screen and (min-width: 695px) and (max-width: 1080px)
+{
+	.gazousize img{height:1000px; width:500px;}
+
+	.kaiwa {
+		position: relative;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 10px 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hidari img{
+		 position: absolute;
+		 top: 680px;
+		 left: 60px;
+	}
+
+	.migi img{
+		position: absolute;
+		right: 70px; 
+		top: 50px;
+	}
+
+	.message {
+	  position: absolute;
+	  padding: 10px 20px;
+	  font-size: 20px;
+	  font-family:  'ヒラギノ角ゴシック';
+	  background: white;
+	  color: black;
+	  text-align: left !important;
+	  white-space: pre-wrap;   /* ← 改行をそのまま反映 */
+	  word-break: break-word;  /* 長い単語は折り返す */
+	  text-decoration: none;
+	  border-radius: 50px;
+
+	  white-space: normal;
+	  word-break: break-word;
+	  max-width: 90%;
+	  display: inline-block;
+	}
+	.message a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.setumei {
+		padding: 30px 40px;
+		font-size: 40px;
+		font-family:   'ヒラギノ角ゴシック';
+		top: 1300;
+		height:170;
+		width: 750;
+
+	}
+	.image-low {
+		z-index: 1; /* 下に表示される画像 */
+	}
+
+	.image-high {
+		z-index: 10; /* 上に表示される画像 */
+		text-align: left;
+	}
+
+
+	.icon1 {
+		left: 270px;
+		top: 125px;
+		background: none;
+	}
+
+	.icon2 {
+		left: 270px;
+		top: 235px;
+		background: none;
+	}
+
+	.icon3 {
+		left: 270px;
+		top: 335px;
+		background: none;
+	}
+	.icon4 {
+		left: 270px;
+		top: 435px;
+
+		background: none;
+	}
+	.icon5 {
+		left: 270px;
+		top: 535px;
+		background: none;
+	}
+
+	.icon6 {
+		left: 270px;
+		top: 635px;
+		background: none;
+	}
+
+	.icon7 {
+		left: 270px;
+		top: 735px;
+		background: none;
+	}
+
+	.icon8 {
+		left: 270px;
+		top: 835px;
+		background: none;
+	}
+
+	.icon9 {
+		left: 270px;
+		top: 935px;
+		background: none;
+	}
+
+	.icon10 {
+		left: 270px;
+		top: 1035px;
+		background: none;
+	}
+
+	.aite1 {
+		left: 340px; 
+		top: 145px;
+		background: white;
+
+	}
+
+	.aite2 {
+		left: 340px; 
+		top: 245px;
+		background: white;
+
+	}
+
+	.aite3 {
+		left: 340px;
+		top: 345px;
+		background: white;
+
+	}
+
+	.aite4 {
+		left: 340px; 
+		top: 445px;
+		background: white;
+
+	}
+
+	.aite5 {
+		left: 340px; 
+		top: 545px;
+		background: white;
+
+	}
+
+	.aite6 {
+		left: 340px;
+		top: 645px;
+		background: white;
+
+	}
+
+	.aite7 {
+		left: 340px;
+		top: 745px;
+		background: white;
+
+	}
+
+	.aite8 {
+		left: 340px;
+		top: 845px;
+		background: white;
+
+	}
+
+	.aite9 {
+		left: 340px;
+		top: 945px;
+		background: white;
+
+	}
+
+	.aite10 {
+		left: 340px; 
+		top: 1045px;
+		background: white;
+
+	}
+
+	.zibun1 {
+		right: 300px; 
+		top: 145px;
+		background:  #d8f255;
+
+	}
+
+	.zibun2 {
+		right: 300px; 
+		top: 245px;
+		background:  #d8f255;
+
+	}
+
+	.zibun3 {
+		right: 300px; 
+		top: 345px;
+		background:  #d8f255;
+
+	}
+
+	.zibun4 {
+		right: 300px;  
+		top: 445px;
+		background:  #d8f255;
+
+	}
+
+	.zibun5 {
+		right: 300px;  
+		top: 545px;
+		background:  #d8f255;
+
+	}
+
+	.zibun6 {
+		right: 300px; 
+		top: 645px;
+		background:  #d8f255;
+
+	}
+
+	.zibun7 {
+		right: 300px;  
+		top: 745px;
+		background:  #d8f255;
+
+	}
+
+	.zibun8 {
+		right: 300px;  
+		top: 845px;
+		background:  #d8f255;
+
+	}
+
+	.zibun9 {
+		right: 300px;  
+		top: 945px;
+		background:  #d8f255;
+
+	}
+
+	.zibun10 {
+		right: 300px;  
+		top: 1045px;
+		background:  #d8f255;
+
+	}
+
+	.setumei1 {
+	  position: absolute;
+	  top: 1100px;
+	  background: white;
+	  font-size: 4vw;
+	  text-align: left !important;
+	  display: inline-block;
+	  padding: 30px 40px;
+	  width: 70%;
+	  max-width: 1000px;
+	  height: auto;
+	  min-height: 170px;
+	  left: 50%;              /* 画面中央寄せ */
+	  transform: translateX(-50%);
+	  box-sizing: border-box;
+	}
+}
+
+/* スマホサイズ（767px以下） */
+@media screen and (max-width: 810px)
+{
+	.gazousize img{height:1000px; width:500px;}
+
+	.kaiwa {
+		position: relative;
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 10px 20px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hidari img{
+		opacity: 0;
+	}
+
+	.migi img{
+		opacity: 0;
+	}
+
+	.message {
+	  position: absolute;
+	  padding: 10px 20px;
+	  font-size: 15px;
+	  font-family:  'ヒラギノ角ゴシック';
+	  background: white;
+	  color: black;
+	  text-align: left !important;
+	  white-space: pre-wrap;   /* ← 改行をそのまま反映 */
+	  word-break: break-word;  /* 長い単語は折り返す */
+	  text-decoration: none;
+	  border-radius: 50px;
+
+	  white-space: normal;
+	  word-break: break-word;
+	  max-width: 90%;
+	  display: inline-block;
+	}
+	.message a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.setumei {
+		padding: 30px 40px;
+		font-size: 40px;
+		font-family:   'ヒラギノ角ゴシック';
+		top: 1300;
+		height:170;
+		width: 750;
+
+	}
+	.image-low {
+		z-index: 1; /* 下に表示される画像 */
+	}
+
+	.image-high {
+		z-index: 10; /* 上に表示される画像 */
+		text-align: left;
+	}
+
+
+	.icon1 {
+		left: 90px;
+		top: 130px;
+		background: none;
+	}
+
+	.icon2 {
+		left: 90px;
+		top: 230px;
+		background: none;
+	}
+
+	.icon3 {
+		left: 90px;
+		top: 330px;
+		background: none;
+	}
+	.icon4 {
+		left: 90px;
+		top: 430px;
+
+		background: none;
+	}
+	.icon5 {
+		left: 90px;
+		top: 530px;
+		background: none;
+	}
+
+	.icon6 {
+		left: 90px;
+		top: 630px;
+		background: none;
+	}
+
+	.icon7 {
+		left: 90px;
+		top: 730px;
+		background: none;
+	}
+
+	.icon8 {
+		left: 90px;
+		top: 830px;
+		background: none;
+	}
+
+	.icon9 {
+		left: 90px;
+		top: 930px;
+		background: none;
+	}
+
+	.icon10 {
+		left: 90px;
+		top: 1030px;
+		background: none;
+	}
+
+	.aite1 {
+		left: 160px; 
+		top: 137px;
+		background: white;
+
+	}
+
+	.aite2 {
+		left: 160px; 
+		top: 237px;
+		background: white;
+
+	}
+
+	.aite3 {
+		left: 160px;
+		top: 337px;
+		background: white;
+
+	}
+
+	.aite4 {
+		left: 160px; 
+		top: 437px;
+		background: white;
+
+	}
+
+	.aite5 {
+		left: 160px; 
+		top: 537px;
+		background: white;
+
+	}
+
+	.aite6 {
+		left: 160px;
+		top: 637px;
+		background: white;
+
+	}
+
+	.aite7 {
+		left: 160px;
+		top: 737px;
+		background: white;
+
+	}
+
+	.aite8 {
+		left: 160px;
+		top: 837px;
+		background: white;
+
+	}
+
+	.aite9 {
+		left: 160px;
+		top: 937px;
+		background: white;
+
+	}
+
+	.aite10 {
+		left: 160px; 
+		top: 1037px;
+		background: white;
+
+	}
+
+	.zibun1 {
+		right: 110px; 
+		top: 145px;
+		background:  #d8f255;
+
+	}
+
+	.zibun2 {
+		right: 110px; 
+		top: 245px;
+		background:  #d8f255;
+
+	}
+
+	.zibun3 {
+		right: 110px; 
+		top: 345px;
+		background:  #d8f255;
+
+	}
+
+	.zibun4 {
+		right: 110px;  
+		top: 445px;
+		background:  #d8f255;
+
+	}
+
+	.zibun5 {
+		right: 110px;  
+		top: 545px;
+		background:  #d8f255;
+
+	}
+
+	.zibun6 {
+		right: 110px; 
+		top: 645px;
+		background:  #d8f255;
+
+	}
+
+	.zibun7 {
+		right: 110px;  
+		top: 745px;
+		background:  #d8f255;
+
+	}
+
+	.zibun8 {
+		right: 110px;  
+		top: 845px;
+		background:  #d8f255;
+
+	}
+
+	.zibun9 {
+		right: 110px;  
+		top: 945px;
+		background:  #d8f255;
+
+	}
+
+	.zibun10 {
+		right: 110px;  
+		top: 1045px;
+		background:  #d8f255;
+
+	}
+
+	.setumei1 {
+	  position: absolute;
+	  top: 1100px;
+	  background: white;
+	  font-size: 50px;
+	  text-align: left !important;
+	  display: inline-block;
+	  padding: 30px 40px;
+	  width: 80%;
+	  max-width: 1000px;
+	  height: auto;
+	  min-height: 170px;
+	  left: 50%;              /* 画面中央寄せ */
+	  transform: translateX(-50%);
+	  box-sizing: border-box;
+	}
+}

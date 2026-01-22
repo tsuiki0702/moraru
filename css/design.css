@@ -1,0 +1,258 @@
+﻿/*ここはdefaultの設定 タブレット用の設定は下のほうにあります*/
+
+.bxtx{
+	color:white;
+	font-family:'ヒラギノ角ゴシック';
+	font-size:2.6vmin;
+	display: inline-block;
+}
+
+.btn1{
+	position: relative;/*位置*/
+	display: inline-block;/*表示形式*/
+	padding: 20px 60px;
+	text-decoration: none;
+	color:black;
+	border-top-left-radius:10px;/*角丸めるやつ*/
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	background: #fff974;
+	font-size: 5vmin;
+	height:8vh;
+	width: 40vw;
+	font-family: 'ヒラギノ角ゴシック';
+}
+.title{
+	color:white;
+	font-size:5vmin;/*正解画面のすべての文字の大きさはここで調整されます 5vminはウィンドウの縦幅または横幅の短いほうの5%です*/
+	text-align:center;
+	font-family:'ヒラギノ角ゴシック';
+}
+
+
+.title2{
+	color:white;
+	font-size:5vmin;/*正解画面のすべての文字の大きさはここで調整されます 5vminはウィンドウの縦幅または横幅の短いほうの5%です*/
+        display: inline-block;
+        text-align: left;  
+	font-family:'ヒラギノ角ゴシック';
+}
+
+.kaisetu{
+	color:white;
+	font-size:5vmin;
+	text-align:center;
+	font-family:'ヒラギノ角ゴシック';
+}
+
+.text{
+	color:white;
+	font-size:8vmin;
+	text-align:center;
+	font-family:'ヒラギノ角ゴシック';
+}
+.back{
+	background-color:#005c08;
+}
+.btnreturn{
+	position: relative;/*位置*/
+	display: inline-block;/*表示形式*/
+	padding: 40px 70px;
+	text-decoration: none;
+	color:black;
+	border-top-left-radius:10px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	background: #fff974;
+	font-size: 5vmin;
+	height:8vh;
+	width: 15vw;
+	font-family:  'ヒラギノ角ゴシック';
+}
+
+.gazou{
+	display:flex;
+	justify-content: center;
+	align-items: center; 
+	gap: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	color:black;
+
+
+	}
+
+.btn2{
+	padding: 90px;
+	border-top-right-radius:50px;
+	border-bottom-right-radius:50px;
+	background: #fff974;
+	display:flex;
+	align-items: center; 
+	gap: 30px;
+	width: 70%;
+	cursor: pointer;
+	font-size: 5vmin;
+}
+
+/* タブレットサイズ（695px1080px） */
+@media screen and (min-width: 768px) and (max-width: 1090px)
+{
+	.btn1{
+	position: relative;/*位置*/
+	display: inline-block;/*表示形式*/
+	padding: 20px 60px;
+	text-decoration: none;
+	color:black;
+	border-top-left-radius:10px;/*角丸めるやつ*/
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	background: #fff974;
+	font-size: 5vmin;
+	height:8vh;
+	width: 40vw;
+	font-family: 'ヒラギノ角ゴシック';
+	}
+	.title{
+		color:white;
+		font-size:5vmin;/*正解画面のすべての文字の大きさはここで調整されます 5vminはウィンドウの縦幅または横幅の短いほうの5%です*/
+		text-align:center;
+		font-family:'ヒラギノ角ゴシック';
+	}
+	.kaisetu{
+		color:white;
+		font-size:5vmin;
+		text-align:center;
+		font-family:'ヒラギノ角ゴシック';
+	}
+
+	.text{
+		color:white;
+		font-size:8vmin;
+		text-align:center;
+		font-family:'ヒラギノ角ゴシック';
+	}
+	.back{
+		background-color:#005c08;
+	}
+	.btnreturn{
+		position: relative;/*位置*/
+		display: inline-block;/*表示形式*/
+		padding: 40px 70px;
+		text-decoration: none;
+		color:black;
+		border-top-left-radius:10px;
+		border-top-right-radius:50px;
+		border-bottom-left-radius:50px;
+		background: #fff974;
+		font-size: 5vmin;
+		height:8vh;
+		width: 15vw;
+		font-family:  'ヒラギノ角ゴシック';
+	}
+	.gazou
+	{
+		display:flex;
+		justify-content: center;
+		align-items: center; 
+		gap: 0px;
+		margin-left: auto;
+		margin-right: auto;
+		text-decoration: none;
+		color:black;
+	}
+
+	.btn2
+	{
+		padding: 62px;
+		border-top-right-radius:50px;
+		border-bottom-right-radius:50px;
+		background: #fff974;
+		display:flex;
+		align-items: center; 
+		gap: 30px;
+		width: 60%;
+		cursor: pointer;
+		font-size: 5vmin;
+		font-family:  'ヒラギノ角ゴシック';
+	}
+}
+
+/* スマホサイズ（767px以下） */
+@media screen and (max-width: 767px)
+{
+	.btn1{
+	position: relative;/*位置*/
+	display: inline-block;/*表示形式*/
+	padding: 20px 60px;
+	text-decoration: none;
+	color:black;
+	border-top-left-radius:10px;/*角丸めるやつ*/
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	background: #fff974;
+	font-size: 5vmin;
+	height:8vh;
+	width: 40vw;
+	font-family: 'ヒラギノ角ゴシック';
+	}
+	.title{
+		color:white;
+		font-size:5vmin;/*正解画面のすべての文字の大きさはここで調整されます 5vminはウィンドウの縦幅または横幅の短いほうの5%です*/
+		text-align:center;
+		font-family:'ヒラギノ角ゴシック';
+	}
+	.kaisetu{
+		color:white;
+		font-size:5vmin;
+		text-align:center;
+		font-family:'ヒラギノ角ゴシック';
+	}
+
+	.text{
+		color:white;
+		font-size:8vmin;
+		text-align:center;
+		font-family:'ヒラギノ角ゴシック';
+	}
+	.back{
+		background-color:#005c08;
+	}
+	.btnreturn{
+		position: relative;/*位置*/
+		display: inline-block;/*表示形式*/
+		padding: 40px 70px;
+		text-decoration: none;
+		color:black;
+		border-top-left-radius:10px;
+		border-top-right-radius:50px;
+		border-bottom-left-radius:50px;
+		background: #fff974;
+		font-size: 5vmin;
+		height:8vh;
+		width: 15vw;
+		font-family:  'ヒラギノ角ゴシック';
+	}
+	.btn2{
+		position: relative;/*位置*/
+		display: inline-block;/*表示形式*/
+		padding: 60px 15px;
+		text-decoration: none;
+		color:black;
+		border-top-left-radius:10px;/*角丸めるやつ*/
+		border-top-right-radius:50px;
+		border-bottom-left-radius:50px;
+		background: #fff974;
+		font-size: 5vmin;
+		height:8vh;
+		width: 60vw;
+		font-family:  'ヒラギノ角ゴシック';
+	}
+	.mderabu{
+		display:flex;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+}
